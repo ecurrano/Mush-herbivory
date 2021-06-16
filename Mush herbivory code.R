@@ -104,7 +104,6 @@ rarefy <- function(data, dname) {
   write.table(rarefaction, paste(dname,".csv"), sep=",")
 }
 
-
 rarefy (datatable[,mask$All],paste(dataname,"_All"))
 rarefy (datatable[,mask$Spec],paste(dataname,"_Spec"))
 rarefy (datatable[,mask$Gall],paste(dataname,"_Gall"))
